@@ -15,10 +15,9 @@ docker rm wiki
 docker run --name wiki -p 80:80 -d -v ${LOCAL_WIKI_DIR}:/wiki adcombi/docker-compose-gollum
 ```
 
-Then browse to  
+Then browse to:
 http://localhost  
-or  
-https://localhost  
+
 The default user/password is gollum/gollum
 
 Note that this example exposes the wiki both via http port 80.
