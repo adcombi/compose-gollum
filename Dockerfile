@@ -1,4 +1,4 @@
-FROM l3iggs/archlinux-aur
+FROM greyltc/archlinux-aur
 MAINTAINER khalil gharbaoui <khalil@adcombi.com>
 
 # add rack config file
@@ -25,7 +25,7 @@ RUN mkdir /wiki
 # set wiki repo directory variable
 ENV WIKI_REPO /wiki
 
-# set default login 
+# set default login
 ENV WIKI_USER gollum
 ENV WIKI_PASS gollum
 
