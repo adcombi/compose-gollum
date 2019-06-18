@@ -1,7 +1,7 @@
 version: "3.5"
 services:
   web:
-    image: adcombi/docker-compose-gollum
+    image: l3iggs/gollum
     container_name: knowledge-base
     expose:
      - "80"
